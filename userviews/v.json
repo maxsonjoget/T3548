@@ -1,0 +1,102 @@
+{
+    "className": "org.joget.apps.userview.model.Userview",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "id": "97207527-032c-4943-82f5-a9ca1a2ca699",
+                    "label": "Welcome",
+                    "customId": "welcome",
+                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>"
+                }
+            }],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.plugin.enterprise.CrudMenu",
+                "properties": {
+                    "list-customFooter": "",
+                    "add-afterSavedRedirectUrl": "",
+                    "edit-customHeader": "",
+                    "editFormId": "testDate",
+                    "edit-afterSavedRedirectParamName": "",
+                    "edit-saveButtonLabel": "",
+                    "list-showDeleteButton": "yes",
+                    "list-newButtonLabel": "",
+                    "edit-afterSavedRedirectUrl": "",
+                    "edit-prevButtonLabel": "",
+                    "add-afterSavedRedirectParamName": "",
+                    "customId": "testDate_crud",
+                    "edit-afterSaved": "list",
+                    "list-deleteButtonLabel": "",
+                    "checkboxPosition": "left",
+                    "selectionType": "multiple",
+                    "add-customFooter": "",
+                    "addFormId": "testDate",
+                    "edit-allowRecordTraveling": "",
+                    "id": "1693e387-d524-4467-9495-f04794137d7c",
+                    "rowCount": "true",
+                    "add-messageShowAfterComplete": "",
+                    "edit-readonlyLabel": "",
+                    "list-editLinkLabel": "",
+                    "add-cancelButtonLabel": "",
+                    "edit-afterSavedRedirectParamvalue": "",
+                    "edit-customFooter": "",
+                    "keyName": "",
+                    "label": "Manage Test Date",
+                    "add-customHeader": "",
+                    "edit-lastButtonLabel": "",
+                    "edit-readonly": "",
+                    "buttonPosition": "bothLeft",
+                    "edit-firstButtonLabel": "",
+                    "datalistId": "list_testDate",
+                    "add-saveButtonLabel": "",
+                    "edit-nextButtonLabel": "",
+                    "edit-messageShowAfterComplete": "",
+                    "edit-moreActions": [],
+                    "list-moreActions": [],
+                    "add-afterSaved": "list",
+                    "edit-backButtonLabel": "",
+                    "add-afterSavedRedirectParamvalue": "",
+                    "list-customHeader": ""
+                }
+            }],
+            "properties": {
+                "id": "category-c750cf69-3114-4cbb-a2f4-f102eca3a1f2",
+                "label": "<i class='fa fa-tasks'><\/i>Manage Test Date"
+            }
+        }
+    ],
+    "properties": {
+        "logoutText": "Logout",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#",
+        "name": "Test Date",
+        "description": "",
+        "footerMessage": "Powered by Joget",
+        "id": "v"
+    },
+    "setting": {"properties": {
+        "mobileViewDisabled": "",
+        "userviewDescription": "",
+        "mobileCacheEnabled": "",
+        "theme": {
+            "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
+            "properties": {
+                "userImage": "no",
+                "dx8colorScheme": "#e9e9e9;#FFFFFF;#AECAC7;#2C6562;#1976d2;#004ba0"
+            }
+        },
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
+        "userviewName": "Test Date"
+    }}
+}

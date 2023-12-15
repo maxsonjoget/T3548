@@ -1,0 +1,28 @@
+{
+    "useSession": "false",
+    "showPageSizeSelector": "true",
+    "rowActions": [],
+    "columns": [{
+        "name": "field1",
+        "format": {
+            "className": "org.joget.plugin.enterprise.DateFormatter",
+            "properties": {"dataFormat": "yyyy-MM-dd"}
+        },
+        "id": "column_0",
+        "label": "Date Picker"
+    }],
+    "pageSize": 0,
+    "orderBy": "",
+    "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "buttonPosition": "bothLeft",
+    "checkboxPosition": "left",
+    "name": "List - Test Date",
+    "id": "list_testDate",
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "testDate"}
+    },
+    "actions": [],
+    "order": ""
+}
