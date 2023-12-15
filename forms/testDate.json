@@ -1,7 +1,21 @@
 {
     "elements": [{
         "elements": [{
-            "elements": [],
+            "elements": [{
+                "className": "org.joget.apps.form.lib.DatePicker",
+                "properties": {
+                    "readonly": "False",
+                    "allowManual": "False",
+                    "yearRange": "c-10:c+10",
+                    "dataFormat": "yyyy-MM-dd",
+                    "label": "Date Picker",
+                    "datePickerType": "",
+                    "currentDateAs": "",
+                    "id": "field1",
+                    "disableWeekends": "False",
+                    "readonlyLabel": "False"
+                }
+            }],
             "className": "org.joget.apps.form.model.Column",
             "properties": {"width": "100%"}
         }],
