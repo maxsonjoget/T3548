@@ -6,10 +6,13 @@
             "menus": [{
                 "className": "org.joget.apps.userview.lib.HtmlPage",
                 "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
                     "id": "97207527-032c-4943-82f5-a9ca1a2ca699",
                     "label": "Welcome",
+                    "enableOffline": "",
                     "customId": "welcome",
-                    "content": "<div class=\"ui-welcome\"><h1>Apps and Workflow Made Simple<\/h1><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Build apps, not just processes!<\/h3><p>Create full-fledged apps with support for data records management.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Increased Efficiency and Productivity<\/h3><p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p><\/div><p>&nbsp;<\/p><div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"/><\/div><div class=\"message\"><h3>Lowered Cost<\/h3><p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p><\/div><\/div>"
+                    "content": "<p style=\"text-align: center;\">YOU'RE WEAK<br><img src=\"https://i.kym-cdn.com/entries/icons/original/000/033/526/cover1.jpg\" width=\"800\" height=\"450\" alt=\"\"><br>WEAK<\/p>"
                 }
             }],
             "properties": {
@@ -83,14 +86,15 @@
         "id": "v"
     },
     "setting": {"properties": {
-        "mobileViewDisabled": "",
         "userviewDescription": "",
-        "mobileCacheEnabled": "",
+        "userviewId": "v",
         "theme": {
             "className": "org.joget.apps.userview.lib.AjaxUniversalTheme",
             "properties": {
+                "mobileViewDisabled": "",
                 "userImage": "no",
-                "dx8colorScheme": "#e9e9e9;#FFFFFF;#AECAC7;#2C6562;#1976d2;#004ba0"
+                "dx8colorScheme": "#e9e9e9;#FFFFFF;#AECAC7;#2C6562;#1976d2;#004ba0",
+                "mobileCacheEnabled": ""
             }
         },
         "permission": {
